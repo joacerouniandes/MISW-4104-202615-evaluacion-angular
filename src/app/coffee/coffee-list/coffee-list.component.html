@@ -1,0 +1,20 @@
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <td>#</td>
+      <td>Nombre</td>
+      <td>Tipo</td>
+      <td>Región</td>
+    </tr>
+  </thead>
+  <tbody>
+    @for (coffee of coffees(); track coffee.id) {
+      <tr>
+        <td>{{coffee.id}}</td>
+        <td>{{coffee.nombre}}</td>
+        <td>{{coffee.tipo}}</td>
+        <td>{{coffee.region}}</td>
+      </tr>
+    }
+  </tbody>
+</table>
