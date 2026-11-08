@@ -32,6 +32,7 @@ describe('CoffeeService', () => {
     const coffees: Coffee[] = [
       new Coffee(
         1,
+        'Mi café preferido',
         'Blend',
         'América',
         'Natural',
@@ -40,6 +41,7 @@ describe('CoffeeService', () => {
       ),
       new Coffee(
         2,
+        'Café de Colombia',
         'Café de Origen',
         'Lagos',
         'Frutal',

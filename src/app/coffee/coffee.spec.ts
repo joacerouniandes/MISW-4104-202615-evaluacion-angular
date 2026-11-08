@@ -6,6 +6,7 @@ describe('Coffee', () => {
   it('should create an instance', () => {
     expect(new Coffee(
       1,
+      "El mejor café",
       "Blend",
       "Altiplano",
       "Chocolate",
