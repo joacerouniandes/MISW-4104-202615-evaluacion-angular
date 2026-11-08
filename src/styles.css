@@ -1,4 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-font-sans-serif: "Inter", sans-serif !important;
 }
